@@ -9,18 +9,7 @@
 
 def fib(n):
   # Code goes here
-  if n == 0:
-    return 0
-  elif n == 1:
-    return 1
-  elif n == 2:
-    return 1
-  elif n == 10:
-    return 55
-  elif n == 77:
-    return 5527939700884757
-  else:
-    raise ValueError
+  pass
 
 assert fib(0) == 0
 assert fib(1) == 1
